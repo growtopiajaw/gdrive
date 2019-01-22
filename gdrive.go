@@ -4,7 +4,11 @@ import (
 	"fmt"
 	"os"
 
+<<<<<<< HEAD
 	"github.com/GrowtopiaJaw/gdrive/cli"
+=======
+	"github.com/msfjarvis/gdrive/cli"
+>>>>>>> 47d3bb6 (Switch to Go modules)
 )
 
 const Name = "gdrive"

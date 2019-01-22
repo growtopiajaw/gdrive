@@ -2,7 +2,11 @@ package main
 
 import (
 	"fmt"
+<<<<<<< HEAD
 	"github.com/GrowtopiaJaw/gdrive/cli"
+=======
+	"github.com/msfjarvis/gdrive/cli"
+>>>>>>> 47d3bb6 (Switch to Go modules)
 	"os"
 	"runtime"
 	"strings"

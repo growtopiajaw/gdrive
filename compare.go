@@ -2,7 +2,11 @@ package main
 
 import (
 	"encoding/json"
+<<<<<<< HEAD
 	"github.com/GrowtopiaJaw/gdrive/drive"
+=======
+	"github.com/msfjarvis/gdrive/drive"
+>>>>>>> 47d3bb6 (Switch to Go modules)
 	"os"
 )
 
