@@ -2,8 +2,11 @@ gdrive
 ======
 
 
-## Important
-This tool is no longer maintained.
+## Note
+- OAuth hotfix is included. Although you might encounter a warning message when getting your API key, you can safely ignore the message as I haven’t submitted my OAuth credentials for review to Google
+- For incremental and encrypted backup of unix systems [borg](https://github.com/borgbackup/borg)
+ is a great alternative and [rsync.net](http://rsync.net/products/attic.html) provides
+ a cheap and reliable backup target.
 
 ## Overview
 gdrive is a command line utility for interacting with Google Drive.
@@ -31,6 +34,28 @@ If you want to manage multiple drives you can use the global `--config` flag
 or set the environment variable `GDRIVE_CONFIG_DIR`.
 Example: `GDRIVE_CONFIG_DIR="/home/user/.gdrive-secondary" gdrive list`
 You will be prompted for a new verification code if the folder does not exist.
+
+### Downloads
+ Check our [releases](https://github.com/GrowtopiaJaw/gdrive/releases) section.
+
+ | Filename               | Version | Description        | SHA1SUM                                   |
+ |:-----------------------|:--------|:-------------------|:-----------------------------------------|
+ | [gdrive-android-16-386](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-android-16-386) | 2.1.0 | Android x86_64 32-bit | 2d817cab0912e0efa5529ada7a4bb73fe90d2d74 |
+ | [gdrive-android-16-arm](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-android-16-arm) | 2.1.0 | Android ARM 32-bit | ed1a12998270f8176c96729d80f3f7307a2e2db6 |
+ | [gdrive-darwin-10.6-386](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-darwin-10.6-386) | 2.1.0 | macOS x86_64 32-bit | 6ef7c740e980358a9a5de36c1aac7ea375319aa3 |
+ | [gdrive-darwin-10.6-amd64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-darwin-10.6-amd64) | 2.1.0 | macOS x86_64 64-bit | 03f423fc7a444e95de3998d24dbfbdb0335fd055 |
+ | [gdrive-ios-5.0-arm64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-ios-5.0-arm64) | 2.1.0 | iOS ARM 64-bit | 3f3c3b70adea1c0d990b29cfa7ca737ce235ea37 |
+ | [gdrive-ios-5.0-armv7](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-ios-5.0-armv7) | 2.1.0 | iOS ARM 32-bit | 3a41c27e10587eef0be20fe00415c65723fa3aee |
+ | [gdrive-linux-386](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-386) | 2.1.0 | Linux x86_64 32-bit | 0247d36e2591ea009ddbd003300bf10cb58089da |
+ | [gdrive-linux-amd64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-amd64) | 2.1.0 | Linux x86_64 64-bit | 69bdf4b9a4ae1f9ead9d35ba118a70005bea3829 |
+ | [gdrive-linux-arm-5](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-arm-5) | 2.1.0 | Linux ARM 32-bit armv5 | 421ae3662ed9b486649560512e3c8a43dbf6cdc6 |
+ | [gdrive-linux-arm-6](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-arm-6) | 2.1.0 | Linux ARM 32-bit armv6 | 9b1621d1656fa8e4f2be21202708ab3bb8c0aa77 |
+ | [gdrive-linux-arm-7](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-arm-7) | 2.1.0 | Linux ARM 32-bit armv7 | 0bf501abb505f851a7592456db304f2c4430e9cd |
+ | [gdrive-linux-arm64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-arm64) | 2.1.0 | Linux ARM 64-bit | 4974290122f635d9c71875bc2c760e46b943c5ab |
+ | [gdrive-linux-mips64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-mips64) | 2.1.0 | Linux MIPS 64-bit | 53780f9a4168c71fd9f3d429932207069d1dcf03 |
+ | [gdrive-linux-mips64le](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-mips64le) | 2.1.0 | Linux MIPS 64-bit le | 5871ee54f992b71b3a1586ec224d93a79265a8b4 |
+ | [gdrive-windows-4.0-386.exe](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-windows-4.0-386.exe) | 2.1.0 | Windows x86_64 32-bit | ad4d16b0144b8fd05ef7f3174a54fe39b04a766d |
+ | [gdrive-windows-4.0-amd64.exe](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-windows-4.0-amd64.exe) | 2.1.0 | Windows x86_64 64-bit | cc636c839434689b73274e3574ac8477c9542880 |
 
 ## Compile from source
 ```bash
