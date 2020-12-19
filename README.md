@@ -69,8 +69,15 @@ You will be prompted for a new verification code if the folder does not exist.
  | [gdrive-linux-s390x](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-s390x) | 2.1.0 | Linux IBM S/390 64-bit | 7db6f0cddd2dec5da4dc706020ea101ee064be86 |
  | [gdrive-netbsd-386](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-netbsd-386) | 2.1.0 | NetBSD x86_64 32-bit | d53a6e282322a8e12bf57ea338f1a701a2cb764e |
  | [gdrive-netbsd-amd64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-netbsd-amd64) | 2.1.0 | NetBSD x86_64 64-bit | ea9a0643963df28ebf8ae87f5200a7ed14ed6ce1 |
- | [gdrive-windows-4.0-386.exe](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-windows-4.0-386.exe) | 2.1.0 | Windows x86_64 32-bit | NULL |
- | [gdrive-windows-4.0-amd64.exe](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-windows-4.0-amd64.exe) | 2.1.0 | Windows x86_64 64-bit | NULL |
+ | [gdrive-netbsd-arm](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-netbsd-arm) | 2.1.0 | NetBSD ARM 32-bit | 91a8428610b9753535df9e028de3baa63b005a31 |
+ | [gdrive-netbsd-arm64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-netbsd-arm64) | 2.1.0 | NetBSD ARM 64-bit | 43c7e597a3072c49c359978c7a663681b9536000 |
+ | [gdrive-plan9-386](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-plan9-386) | 2.1.0 | Plan 9 x86_64 32-bit | bb862c5a482c0201b8003d154ac6f7e97629893f |
+ | [gdrive-plan9-amd64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-plan9-amd64) | 2.1.0 | Plan 9 x86_64 64-bit | d6141e25383c4ca0aa9f936255f4bcb6c245fb98 |
+ | [gdrive-plan9-arm](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-plan9-arm) | 2.1.0 | Plan 9 ARM 32-bit | d7eadb68323ddd3fa30cc5033b390859f3c3044f |
+ | [gdrive-solaris-amd64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-solaris-amd64) | 2.1.0 | Solaris x86_64 64-bit | dbb07443a1a48aeef15753b6740035bb572fe800 |
+ | [gdrive-windows-386.exe](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-windows-386.exe) | 2.1.0 | Windows x86_64 32-bit | b3c8c1dc754edb84b629e33f17fee184f4b57024 |
+ | [gdrive-windows-amd64.exe](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-windows-amd64.exe) | 2.1.0 | Windows x86_64 64-bit | 83b00d0c5d32fa89ffb96b3b97f43a4d9817d82a |
+ | [gdrive-windows-arm.exe](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-windows-arm.exe) | 2.1.0 | Windows ARM 32-bit | a679421b4a5460dcf223d7cd51d48ac6ff97155d |
 
 ## Compile from source
 ```bash
