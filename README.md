@@ -41,9 +41,9 @@ You will be prompted for a new verification code if the folder does not exist.
  | Filename               | Version | Description        | SHA1SUM                                   |
  |:-----------------------|:--------|:-------------------|:-----------------------------------------|
  | [gdrive-aix-ppc64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-aix-ppc64) | 2.1.0 | AIX PowerPC 64-bit | 2492ad0cf8fbee5053e50978a1a1bf5b81a9205c |
- | [gdrive-android-16-386](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-android-16-386) | 2.1.0 | Android x86_64 32-bit | NULL |
- | [gdrive-android-16-arm](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-android-16-arm) | 2.1.0 | Android ARM 32-bit | NULL |
- | [gdrive-darwin-10.6-386](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-darwin-10.6-386) | 2.1.0 | macOS x86_64 32-bit | NULL |
+ | [gdrive-android-16-386](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-android-16-386) | 2.1.0 | Android x86_64 32-bit | 599fdcdd3e4fd7b0ffda4eabcdd3224892c4b7d6 |
+ | [gdrive-android-16-arm](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-android-16-arm) | 2.1.0 | Android ARM 32-bit | 2bc29f69714216995dec9f0d0cfe3b2189b15794 |
+ | [gdrive-darwin-10.6-386](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-darwin-10.6-386) | 2.1.0 | macOS x86_64 32-bit | f65619906bb887d3fc377607cbce7537120034b7 |
  | [gdrive-darwin-amd64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-darwin-amd64) | 2.1.0 | macOS x86_64 64-bit | 251775eface53fa4a2141ceb08787a3795937bb4 |
  | [gdrive-dragonfly-amd64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-dragonfly-amd64) | 2.1.0 | DragonFly x86_64 64-bit | 46f08e725ff25fdcfa9cb1738dd746b60710e4f2 |
  | [gdrive-freebsd-386](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-freebsd-386) | 2.1.0 | FreeBSD x86_64 32-bit | 143391848e252fca0bad8a5fdeefb631e6e90454 |
@@ -52,14 +52,14 @@ You will be prompted for a new verification code if the folder does not exist.
  | [gdrive-freebsd-arm64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-freebsd-arm64) | 2.1.0 | FreeBSD ARM 64-bit | 889eac15d59ccfecbbb53e69b3cc8cae45c583b6 |
  | [gdrive-illumos-amd64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-illumos-amd64) | 2.1.0 | illumos x86_64 64-bit | 038bcbae01a402493f115e3d498a3bd5fd1d1578 |
  | [gdrive-ios-5.0-arm64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-ios-5.0-arm64) | 2.1.0 | iOS ARM 64-bit | 3f3c3b70adea1c0d990b29cfa7ca737ce235ea37 |
- | [gdrive-ios-5.0-armv7](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-ios-5.0-armv7) | 2.1.0 | iOS ARM 32-bit | NULL |
+ | [gdrive-ios-5.0-armv7](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-ios-5.0-armv7) | 2.1.0 | iOS ARM 32-bit armv7 | 8674d64f324366289f205bb05ddbdacfa69377f8 |
  | [gdrive-js-wasm](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-js-wasm) | 2.1.0 | JavaScript WebAssembly | c1ea534da91a459e0fbcffeb14e9aed8b7894735 |
  | [gdrive-linux-386](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-386) | 2.1.0 | Linux x86_64 32-bit | af4ac6a4f870d425bd847d617f69642fa0f9a3ea |
  | [gdrive-linux-amd64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-amd64) | 2.1.0 | Linux x86_64 64-bit | 0bca1f0c2aa2dedb0e472a1548bcf1290d91ccf3 |
  | [gdrive-linux-arm](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-arm) | 2.1.0 | Linux ARM 32-bit | 161784785cfd4e5d38b49bcdd96aee30923e19eb |
- | [gdrive-linux-arm-5](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-arm-5) | 2.1.0 | Linux ARM 32-bit armv5 | NULL |
- | [gdrive-linux-arm-6](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-arm-6) | 2.1.0 | Linux ARM 32-bit armv6 | NULL |
- | [gdrive-linux-arm-7](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-arm-7) | 2.1.0 | Linux ARM 32-bit armv7 | NULL |
+ | [gdrive-linux-arm-5](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-arm-5) | 2.1.0 | Linux ARM 32-bit armv5 | a2078b5fb673f11e7aaf88ca1c915f04c8834994 |
+ | [gdrive-linux-arm-6](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-arm-6) | 2.1.0 | Linux ARM 32-bit armv6 | 01dfa25d24a027a78edca12cea2b2dc4a8319e22 |
+ | [gdrive-linux-arm-7](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-arm-7) | 2.1.0 | Linux ARM 32-bit armv7 | f469bfedfdbd5f32bedaf7316c8d2accc16fe8c6 |
  | [gdrive-linux-arm64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-arm64) | 2.1.0 | Linux ARM 64-bit | 4b42f9d0ebffc70b996e77c275f4be0f955d0935 |
  | [gdrive-linux-mips64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-mips64) | 2.1.0 | Linux MIPS 64-bit | 9636026bbcb5597e79c22a8875719494b01f54c7 |
  | [gdrive-linux-mips64le](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-mips64le) | 2.1.0 | Linux MIPS 64-bit le | ef912846915bc84ce533266cc19a38a95eb381ab |
