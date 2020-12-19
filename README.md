@@ -48,7 +48,8 @@ You will be prompted for a new verification code if the folder does not exist.
  | [gdrive-dragonfly-amd64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-dragonfly-amd64) | 2.1.0 | DragonFly x86_64 64-bit | 46f08e725ff25fdcfa9cb1738dd746b60710e4f2 |
  | [gdrive-freebsd-386](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-freebsd-386) | 2.1.0 | FreeBSD x86_64 32-bit | 143391848e252fca0bad8a5fdeefb631e6e90454 |
  | [gdrive-freebsd-amd64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-freebsd-amd64) | 2.1.0 | FreeBSD x86_64 64-bit | e5cd1612c65cb00de15f270dcd58c0975962413e |
- | [gdrive-freebsd-arm](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-freebsd-arm) | 2.1.0 | FreeBSD ARM 32-bit | 3a3a4282e22052bf573769dc1ac3879d5f80fb3a |
+ | [gdrive-freebsd-armv6](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-freebsd-armv6) | 2.1.0 | FreeBSD ARM 32-bit armv6 | dd4feaa6c3e1cac73e90ba72c49f9a78768991c8 |
+ | [gdrive-freebsd-armv7](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-freebsd-armv7) | 2.1.0 | FreeBSD ARM 32-bit armv7 | d21d450c89fbcf8f581b401b64a38408fc4dae2f |
  | [gdrive-freebsd-arm64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-freebsd-arm64) | 2.1.0 | FreeBSD ARM 64-bit | 889eac15d59ccfecbbb53e69b3cc8cae45c583b6 |
  | [gdrive-illumos-amd64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-illumos-amd64) | 2.1.0 | illumos x86_64 64-bit | 038bcbae01a402493f115e3d498a3bd5fd1d1578 |
  | [gdrive-ios-5.0-arm64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-ios-5.0-arm64) | 2.1.0 | iOS ARM 64-bit | 3f3c3b70adea1c0d990b29cfa7ca737ce235ea37 |
@@ -56,10 +57,9 @@ You will be prompted for a new verification code if the folder does not exist.
  | [gdrive-js-wasm](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-js-wasm) | 2.1.0 | JavaScript WebAssembly | c1ea534da91a459e0fbcffeb14e9aed8b7894735 |
  | [gdrive-linux-386](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-386) | 2.1.0 | Linux x86_64 32-bit | af4ac6a4f870d425bd847d617f69642fa0f9a3ea |
  | [gdrive-linux-amd64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-amd64) | 2.1.0 | Linux x86_64 64-bit | 0bca1f0c2aa2dedb0e472a1548bcf1290d91ccf3 |
- | [gdrive-linux-arm](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-arm) | 2.1.0 | Linux ARM 32-bit | 161784785cfd4e5d38b49bcdd96aee30923e19eb |
- | [gdrive-linux-arm-5](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-arm-5) | 2.1.0 | Linux ARM 32-bit armv5 | a2078b5fb673f11e7aaf88ca1c915f04c8834994 |
- | [gdrive-linux-arm-6](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-arm-6) | 2.1.0 | Linux ARM 32-bit armv6 | 01dfa25d24a027a78edca12cea2b2dc4a8319e22 |
- | [gdrive-linux-arm-7](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-arm-7) | 2.1.0 | Linux ARM 32-bit armv7 | f469bfedfdbd5f32bedaf7316c8d2accc16fe8c6 |
+ | [gdrive-linux-armv5](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-armv5) | 2.1.0 | Linux ARM 32-bit armv5 | 161784785cfd4e5d38b49bcdd96aee30923e19eb |
+ | [gdrive-linux-armv6](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-armv6) | 2.1.0 | Linux ARM 32-bit armv6 | 66ab7104848ac2af9455a12e87b4559b27d8d5f0 |
+ | [gdrive-linux-armv7](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-armv7) | 2.1.0 | Linux ARM 32-bit armv7 | 350c731c5c17c5d963325b1ab59abe19c86814b6 |
  | [gdrive-linux-arm64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-arm64) | 2.1.0 | Linux ARM 64-bit | 4b42f9d0ebffc70b996e77c275f4be0f955d0935 |
  | [gdrive-linux-mips64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-mips64) | 2.1.0 | Linux MIPS 64-bit | 9636026bbcb5597e79c22a8875719494b01f54c7 |
  | [gdrive-linux-mips64le](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-mips64le) | 2.1.0 | Linux MIPS 64-bit le | ef912846915bc84ce533266cc19a38a95eb381ab |
@@ -69,8 +69,11 @@ You will be prompted for a new verification code if the folder does not exist.
  | [gdrive-linux-s390x](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-linux-s390x) | 2.1.0 | Linux IBM S/390 64-bit | 7db6f0cddd2dec5da4dc706020ea101ee064be86 |
  | [gdrive-netbsd-386](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-netbsd-386) | 2.1.0 | NetBSD x86_64 32-bit | d53a6e282322a8e12bf57ea338f1a701a2cb764e |
  | [gdrive-netbsd-amd64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-netbsd-amd64) | 2.1.0 | NetBSD x86_64 64-bit | ea9a0643963df28ebf8ae87f5200a7ed14ed6ce1 |
- | [gdrive-netbsd-arm](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-netbsd-arm) | 2.1.0 | NetBSD ARM 32-bit | 91a8428610b9753535df9e028de3baa63b005a31 |
+ | [gdrive-netbsd-armv6](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-netbsd-armv6) | 2.1.0 | NetBSD ARM 32-bit armv6 | 96b643e05baf6f0f4d13b82128c90d974e3c1a46 |
+ | [gdrive-netbsd-armv7](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-netbsd-armv7) | 2.1.0 | NetBSD ARM 32-bit armv7 | 11960c53b90959faa13b60854e82cfd56b89f4c7 |
  | [gdrive-netbsd-arm64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-netbsd-arm64) | 2.1.0 | NetBSD ARM 64-bit | 43c7e597a3072c49c359978c7a663681b9536000 |
+ | [gdrive-openbsd-armv6](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-openbsd-armv6) | 2.1.0 | OpenBSD ARM 32-bit armv6 | 81d14a457d9459249a12411813539f44e13a814e |
+ | [gdrive-openbsd-armv6](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-openbsd-armv7) | 2.1.0 | OpenBSD ARM 32-bit armv7 | d28b2dffdbbcffebfbd583b216d69dd08361a45b |
  | [gdrive-plan9-386](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-plan9-386) | 2.1.0 | Plan 9 x86_64 32-bit | bb862c5a482c0201b8003d154ac6f7e97629893f |
  | [gdrive-plan9-amd64](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-plan9-amd64) | 2.1.0 | Plan 9 x86_64 64-bit | d6141e25383c4ca0aa9f936255f4bcb6c245fb98 |
  | [gdrive-plan9-arm](https://github.com/GrowtopiaJaw/gdrive/releases/download/v1.0/gdrive-plan9-arm) | 2.1.0 | Plan 9 ARM 32-bit | d7eadb68323ddd3fa30cc5033b390859f3c3044f |
