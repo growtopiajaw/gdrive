@@ -4,12 +4,7 @@
 # Source: https://www.digitalocean.com/community/tutorials/how-to-build-go-executables-for-multiple-platforms-on-ubuntu-16-04
 # Modified to suit gdrive’s compatible build list
 
-package=$1
-if [[ -z "$package" ]]; then
-  echo "usage: $0 <package-name>"
-  echo "Example: $0 github.com/GrowtopiaJaw/gdrive"
-  exit 1
-fi
+package="github.com/GrowtopiaJaw/gdrive"
 package_split=(${package//\// })
 package_name=${package_split[-1]}
 
