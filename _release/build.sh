@@ -7,6 +7,7 @@
 package=$1
 if [[ -z "$package" ]]; then
   echo "usage: $0 <package-name>"
+  echo "Example: $0 github.com/GrowtopiaJaw/gdrive"
   exit 1
 fi
 package_split=(${package//\// })
