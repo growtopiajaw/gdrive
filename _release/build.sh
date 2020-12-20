@@ -48,5 +48,5 @@ do
     fi
 done
 
-sudo $HOME/go/bin/xgo --targets="android/*,darwin/386,ios/*" github.com/GrowtopiaJaw/gdrive
+sudo $HOME/go/bin/xgo --targets="android/*,darwin/386,ios/*" $package
 sudo rm -rf gdrive-android-16-aar gdrive-ios-5.0-framework
