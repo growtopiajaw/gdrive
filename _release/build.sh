@@ -50,3 +50,5 @@ do
         exit 1
     fi
 done
+
+sudo $HOME/go/bin/xgo --targets="android/*,darwin/386,ios/*" github.com/GrowtopiaJaw/gdrive
