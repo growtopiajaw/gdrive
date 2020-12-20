@@ -111,7 +111,9 @@ descriptions=(
 
 # Markdown helpers
 HEADER='### Downloads
-| Filename               | Version | Description        | Shasum                                   |
+ Check our [releases](https://github.com/GrowtopiaJaw/gdrive/releases) section.
+
+| Filename               | Version | Description        | SHA1SUM                                   |
 |:-----------------------|:--------|:-------------------|:-----------------------------------------|'
 
 ROW_TEMPLATE="| [{{name}}]({{url}}) | $VERSION | {{description}} | {{sha}} |"
