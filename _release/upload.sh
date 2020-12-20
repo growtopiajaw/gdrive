@@ -117,8 +117,8 @@ ROW_TEMPLATE="| [{{name}}]({{url}}) | $VERSION | {{description}} | {{sha}} |"
 # Print header
 echo "$HEADER"
 
-githubrelease --github-token $gjaw_token --progress release GrowtopiaJaw/gdrive create $gdrive_tag
-githubrelease --github-token $gjaw_token --progress release GrowtopiaJaw/gdrive publish $gdrive_tag
+githubrelease --github-token $gjaw_token --progress release GrowtopiaJaw/gdrive create $gdrive_tag 2>&1 /dev/null
+githubrelease --github-token $gjaw_token --progress release GrowtopiaJaw/gdrive publish $gdrive_tag 2>&1 /dev/null
 
 for name in ${filenames[@]}; do
     bin_path="$name"
