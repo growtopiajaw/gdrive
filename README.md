@@ -174,6 +174,11 @@ options:
   --bytes                    Size in bytes
 ```
 
+#### List file in subdirectory
+```
+gdrive list --query " 'IdOfTheParentFolder' in parents"
+```
+
 #### Download file or directory
 ```
 gdrive [global] download [options] <fileId>
