@@ -1,5 +1,11 @@
 #!/usr/local/bin/bash
 
+githubrelease --github-token $gjaw_token --progress ref GrowtopiaJaw/gdrive list | awk '/\/v/'
+echo
+echo -e "These are all the releases that have been published to GitHub"
+echo -e "Please input your next release tag"
+read -p ": " gdrive_tag
+
 # Grab application version
 VERSION=$(./gdrive-linux-amd64 version | awk 'NR==1 {print $2}')
 
