@@ -3,11 +3,31 @@
 githubrelease --github-token $gjaw_token --progress ref GrowtopiaJaw/gdrive list | awk '/\/v/'
 echo
 echo -e "These are all the releases that have been published to GitHub"
-echo -e "Please input your next release tag"
+echo -e "Please specify your next release tag"
 read -p ": " gdrive_tag
+githubrelease --github-token $gjaw_token --progress release GrowtopiaJaw/gdrive debug v"$(latest_version)" | awk '/body/ {print $2}' | sed "s/'//g"
+echo -e "This is the latest ordinal release that has been published to GitHub"
+echo -e "Please specify your next ordinal release"
+read -p ": " ordinal_release
 
-githubrelease --github-token $gjaw_token --progress release GrowtopiaJaw/gdrive create $gdrive_tag
-githubrelease --github-token $gjaw_token --progress release GrowtopiaJaw/gdrive publish $gdrive_tag
+git_root=$(git rev-parse --show-toplevel)
+
+function latest_version() {
+    cat $git_root/README.md | awk '/gdrive-aix-ppc64/ {print $4}'
+}
+
+function description() {
+    cat <<EOF
+$ordinal_release release
+- OAuth hotfix is included (using my own Google Drive v3 keys) you may see a warning message when getting your API key, you can safely ignore the message as I haven’t submitted my OAuth credentials for review to Google
+- All possible binaries are built using [xgo](https://github.com/gythialy/xgo) and golang’s built in cross compile support although, they are not tested, YMMV
+- So far, these are the only binaries that I’ve personally tested and is known to work
+  * gdrive-linux-amd64 (Ubuntu 18.04.5 LTS)
+  * gdrive-ios-5.0-arm64 (Apple iPhone 6)
+EOF
+}
+
+githubrelease --github-token $gjaw_token --progress release GrowtopiaJaw/gdrive create --name $gdrive_tag --body "$(description)" --publish $gdrive_tag
 
 # Grab application version
 VERSION=$(./gdrive-linux-amd64 version | awk 'NR==1 {print $2}')
