@@ -20,7 +20,7 @@ function description() {
     cat <<EOF
 $ordinal_release release
 - OAuth hotfix is included (using my own Google Drive v3 keys) you may see a warning message when getting your API key, you can safely ignore the message as I haven’t submitted my OAuth credentials for review to Google
-- All possible binaries are built using [xgo](https://github.com/gythialy/xgo) and golang’s built in cross compile support although, they are not tested, YMMV
+- All possible binaries are built using [xgo](https://github.com/karalabe/xgo) and golang’s built in cross compile support although, they are not tested, YMMV
 - So far, these are the only binaries that I’ve personally tested and is known to work
   * gdrive-linux-amd64 (Ubuntu 18.04.5 LTS)
   * gdrive-ios-5.0-arm64 (Apple iPhone 6)
