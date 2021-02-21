@@ -20,8 +20,13 @@ import (
 >>>>>>> 47d3bb6 (Switch to Go modules)
 )
 
+<<<<<<< HEAD
 const ClientId = "546861666730-tl0j9amqn5spusu0km72q82119qrq0o4.apps.googleusercontent.com"
 const ClientSecret = "zIkuFIrEr7XWEN522SsdSyCb"
+=======
+var ClientId string
+var ClientSecret string
+>>>>>>> c121158 (handlers_drive: remove invalid credentials and source at build time)
 const TokenFilename = "token_v2.json"
 const DefaultCacheFileName = "file_cache.json"
 
