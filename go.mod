@@ -31,7 +31,7 @@ module github.com/msfjarvis/gdrive
 go 1.16
 
 require (
-	github.com/sabhiram/go-git-ignore v0.0.0-20160116020857-228fcfa2a06e
+	github.com/sabhiram/go-gitignore v0.0.0-20201211210132-54b8a0bf510f
 	github.com/soniakeys/graph v0.0.0-20160409104831-c265d9676750
 	github.com/stretchr/testify v1.7.0 // indirect
 	golang.org/x/net v0.0.0-20210119194325-5f4716e94777

@@ -232,14 +232,18 @@ github.com/stretchr/testify v1.5.1/go.mod h1:5W2xD1RspED5o8YsWQXVCued0rvSQ+mT+I5
 github.com/stretchr/testify v1.6.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 =======
 github.com/rogpeppe/go-internal v1.3.0/go.mod h1:M8bDsm7K2OlrFYOpmOWEs/qY81heoFRclV5y23lUDJ4=
-github.com/sabhiram/go-git-ignore v0.0.0-20160116020857-228fcfa2a06e h1:8uJpomEYzFUiUIOPAH2mTzEed3ZtrZ83BDNMX64j17g=
-github.com/sabhiram/go-git-ignore v0.0.0-20160116020857-228fcfa2a06e/go.mod h1:yRB/JGk9Vry1PNE04BUqcjQqikIMweumaxXvuNHiSTE=
+github.com/sabhiram/go-gitignore v0.0.0-20201211210132-54b8a0bf510f h1:8P2MkG70G76gnZBOPGwmMIgwBb/rESQuwsJ7K8ds4NE=
+github.com/sabhiram/go-gitignore v0.0.0-20201211210132-54b8a0bf510f/go.mod h1:+ePHsJ1keEjQtpvf9HHw0f4ZeJ0TLRsxhunSI2hYJSs=
 github.com/soniakeys/graph v0.0.0-20160409104831-c265d9676750 h1:xyxiBxj6kEh3G0MCE0FrqImPoAEnhLtH/i8YkALrtdw=
 github.com/soniakeys/graph v0.0.0-20160409104831-c265d9676750/go.mod h1:J3SJVDwi4oshS4Dpd6YXwT0R2zqZWEila+0ZUT6Wol4=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
 github.com/stretchr/testify v1.5.1/go.mod h1:5W2xD1RspED5o8YsWQXVCued0rvSQ+mT+I5cxcmMvtA=
+<<<<<<< HEAD
 >>>>>>> 47d3bb6 (Switch to Go modules)
+=======
+github.com/stretchr/testify v1.6.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
+>>>>>>> 983f018 (go.mod: fix go-gitignore requirement again)
 github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5CcY=
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/yuin/goldmark v1.1.25/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
