@@ -52,7 +52,7 @@ func main() {
 	}
 
 	handlers := []*cli.Handler{
-		&cli.Handler{
+		{
 			Pattern:     "[global] list [options]",
 			Description: "List files",
 			Callback:    listHandler,
@@ -103,7 +103,7 @@ func main() {
 				),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] download [options] <fileId>",
 			Description: "Download file or directory",
 			Callback:    downloadHandler,
@@ -160,7 +160,7 @@ func main() {
 				),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] download query [options] <query>",
 			Description: "Download all files and directories matching query",
 			Callback:    downloadQueryHandler,
@@ -199,7 +199,7 @@ func main() {
 				),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] upload [options] <path>",
 			Description: "Upload file or directory",
 			Callback:    uploadHandler,
@@ -265,7 +265,7 @@ func main() {
 				),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] upload - [options] <name>",
 			Description: "Upload file from stdin",
 			Callback:    uploadStdinHandler,
@@ -314,7 +314,7 @@ func main() {
 				),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] update [options] <fileId> <path>",
 			Description: "Update file, this creates a new revision of the file",
 			Callback:    updateHandler,
@@ -362,7 +362,7 @@ func main() {
 				),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] info [options] <fileId>",
 			Description: "Show file info",
 			Callback:    infoHandler,
@@ -378,7 +378,7 @@ func main() {
 				),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] mkdir [options] <name>",
 			Description: "Create directory",
 			Callback:    mkdirHandler,
@@ -398,7 +398,7 @@ func main() {
 				),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] share [options] <fileId>",
 			Description: "Share file or directory",
 			Callback:    shareHandler,
@@ -442,7 +442,7 @@ func main() {
 				),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] share list <fileId>",
 			Description: "List files permissions",
 			Callback:    shareListHandler,
@@ -450,7 +450,7 @@ func main() {
 				cli.NewFlagGroup("global", globalFlags...),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] share revoke <fileId> <permissionId>",
 			Description: "Revoke permission",
 			Callback:    shareRevokeHandler,
@@ -458,7 +458,7 @@ func main() {
 				cli.NewFlagGroup("global", globalFlags...),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] delete [options] <fileId>",
 			Description: "Delete file or directory",
 			Callback:    deleteHandler,
@@ -474,7 +474,7 @@ func main() {
 				),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] sync list [options]",
 			Description: "List all syncable directories on drive",
 			Callback:    listSyncHandler,
@@ -490,7 +490,7 @@ func main() {
 				),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] sync content [options] <fileId>",
 			Description: "List content of syncable directory",
 			Callback:    listRecursiveSyncHandler,
@@ -523,7 +523,7 @@ func main() {
 				),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] sync download [options] <fileId> <path>",
 			Description: "Sync drive directory to local directory",
 			Callback:    downloadSyncHandler,
@@ -575,7 +575,7 @@ func main() {
 				),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] sync upload [options] <path> <fileId>",
 			Description: "Sync local directory to drive",
 			Callback:    uploadSyncHandler,
@@ -633,7 +633,7 @@ func main() {
 				),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] changes [options]",
 			Description: "List file changes",
 			Callback:    listChangesHandler,
@@ -673,7 +673,7 @@ func main() {
 				),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] revision list [options] <fileId>",
 			Description: "List file revisions",
 			Callback:    listRevisionsHandler,
@@ -701,7 +701,7 @@ func main() {
 				),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] revision download [options] <fileId> <revId>",
 			Description: "Download revision",
 			Callback:    downloadRevisionHandler,
@@ -740,7 +740,7 @@ func main() {
 				),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] revision delete <fileId> <revId>",
 			Description: "Delete file revision",
 			Callback:    deleteRevisionHandler,
@@ -748,7 +748,7 @@ func main() {
 				cli.NewFlagGroup("global", globalFlags...),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] import [options] <path>",
 			Description: "Upload and convert file to a google document, see 'about import' for available conversions",
 			Callback:    importHandler,
@@ -774,7 +774,7 @@ func main() {
 				),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] export [options] <fileId>",
 			Description: "Export a google document",
 			Callback:    exportHandler,
@@ -801,7 +801,7 @@ func main() {
 				),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] about [options]",
 			Description: "Google drive metadata, quota usage",
 			Callback:    aboutHandler,
@@ -817,7 +817,7 @@ func main() {
 				),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] about import",
 			Description: "Show supported import formats",
 			Callback:    aboutImportHandler,
@@ -825,7 +825,7 @@ func main() {
 				cli.NewFlagGroup("global", globalFlags...),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "[global] about export",
 			Description: "Show supported export formats",
 			Callback:    aboutExportHandler,
@@ -833,22 +833,22 @@ func main() {
 				cli.NewFlagGroup("global", globalFlags...),
 			},
 		},
-		&cli.Handler{
+		{
 			Pattern:     "version",
 			Description: "Print application version",
 			Callback:    printVersion,
 		},
-		&cli.Handler{
+		{
 			Pattern:     "help",
 			Description: "Print help",
 			Callback:    printHelp,
 		},
-		&cli.Handler{
+		{
 			Pattern:     "help <command>",
 			Description: "Print command help",
 			Callback:    printCommandHelp,
 		},
-		&cli.Handler{
+		{
 			Pattern:     "help <command> <subcommand>",
 			Description: "Print subcommand help",
 			Callback:    printSubCommandHelp,
