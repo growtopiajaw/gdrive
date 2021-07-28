@@ -3,13 +3,14 @@ package drive
 import (
 	"bytes"
 	"fmt"
-	"google.golang.org/api/drive/v3"
-	"google.golang.org/api/googleapi"
 	"io"
 	"os"
 	"path/filepath"
 	"sort"
 	"time"
+
+	"google.golang.org/api/drive/v3"
+	"google.golang.org/api/googleapi"
 )
 
 type UploadSyncArgs struct {

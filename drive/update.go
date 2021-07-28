@@ -2,12 +2,13 @@ package drive
 
 import (
 	"fmt"
-	"google.golang.org/api/drive/v3"
-	"google.golang.org/api/googleapi"
 	"io"
 	"mime"
 	"path/filepath"
 	"time"
+
+	"google.golang.org/api/drive/v3"
+	"google.golang.org/api/googleapi"
 )
 
 type UpdateArgs struct {

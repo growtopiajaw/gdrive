@@ -2,16 +2,17 @@ package drive
 
 import (
 	"fmt"
-	"github.com/sabhiram/go-gitignore"
-	"github.com/soniakeys/graph"
-	"google.golang.org/api/drive/v3"
-	"google.golang.org/api/googleapi"
 	"io"
 	"os"
 	"path/filepath"
 	"strings"
 	"text/tabwriter"
 	"time"
+
+	ignore "github.com/sabhiram/go-gitignore"
+	"github.com/soniakeys/graph"
+	"google.golang.org/api/drive/v3"
+	"google.golang.org/api/googleapi"
 )
 
 const DefaultIgnoreFile = ".gdriveignore"

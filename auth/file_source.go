@@ -2,9 +2,10 @@ package auth
 
 import (
 	"encoding/json"
-	"golang.org/x/oauth2"
 	"io/ioutil"
 	"os"
+
+	"golang.org/x/oauth2"
 )
 
 func FileSource(path string, token *oauth2.Token, conf *oauth2.Config) oauth2.TokenSource {
@@ -42,7 +43,6 @@ func ReadFile(path string) ([]byte, bool, error) {
 	}
 	return content, true, nil
 }
-
 
 func ReadToken(path string) (*oauth2.Token, bool, error) {
 

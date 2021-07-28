@@ -1,10 +1,11 @@
 package drive
 
 import (
-	"golang.org/x/net/context"
 	"io"
 	"sync"
 	"time"
+
+	"golang.org/x/net/context"
 )
 
 const TimeoutTimerInterval = time.Second * 10

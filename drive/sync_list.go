@@ -2,11 +2,12 @@ package drive
 
 import (
 	"fmt"
-	"google.golang.org/api/drive/v3"
-	"google.golang.org/api/googleapi"
 	"io"
 	"sort"
 	"text/tabwriter"
+
+	"google.golang.org/api/drive/v3"
+	"google.golang.org/api/googleapi"
 )
 
 type ListSyncArgs struct {

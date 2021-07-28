@@ -2,11 +2,12 @@ package drive
 
 import (
 	"fmt"
+	"io"
+	"text/tabwriter"
+
 	"golang.org/x/net/context"
 	"google.golang.org/api/drive/v3"
 	"google.golang.org/api/googleapi"
-	"io"
-	"text/tabwriter"
 )
 
 type ListFilesArgs struct {

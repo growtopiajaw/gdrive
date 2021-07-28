@@ -24,7 +24,7 @@ func formatSize(bytes int64, forceBytes bool) string {
 	if bytes == 0 {
 		return ""
 	} else if bytes < 0 {
-	    return "Unlimited"
+		return "Unlimited"
 	}
 
 	if forceBytes {

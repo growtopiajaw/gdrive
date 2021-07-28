@@ -2,8 +2,9 @@ package drive
 
 import (
 	"fmt"
-	"google.golang.org/api/drive/v3"
 	"path/filepath"
+
+	"google.golang.org/api/drive/v3"
 )
 
 func (self *Drive) newPathfinder() *remotePathfinder {

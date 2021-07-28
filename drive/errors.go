@@ -1,9 +1,10 @@
 package drive
 
 import (
+	"time"
+
 	"golang.org/x/net/context"
 	"google.golang.org/api/googleapi"
-	"time"
 )
 
 const MaxErrorRetries = 5

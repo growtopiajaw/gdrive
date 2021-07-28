@@ -26,7 +26,11 @@ const ClientSecret = "zIkuFIrEr7XWEN522SsdSyCb"
 =======
 var ClientId string
 var ClientSecret string
+<<<<<<< HEAD
 >>>>>>> c121158 (handlers_drive: remove invalid credentials and source at build time)
+=======
+
+>>>>>>> 77f570f (all: reformat with goimports)
 const TokenFilename = "token_v2.json"
 const DefaultCacheFileName = "file_cache.json"
 

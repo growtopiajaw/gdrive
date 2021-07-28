@@ -2,9 +2,10 @@ package drive
 
 import (
 	"fmt"
-	"google.golang.org/api/drive/v3"
 	"io"
 	"text/tabwriter"
+
+	"google.golang.org/api/drive/v3"
 )
 
 type ListRevisionsArgs struct {
