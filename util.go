@@ -7,22 +7,16 @@ import (
 	"io"
 	"os"
 	"path/filepath"
-	"runtime"
+
+	"github.com/adrg/xdg"
 )
 
 func GetDefaultConfigDir() string {
-	return filepath.Join(Homedir(), ".gdrive")
+	return filepath.Join(xdg.ConfigHome, "gdrive")
 }
 
 func ConfigFilePath(basePath, name string) string {
 	return filepath.Join(basePath, name)
-}
-
-func Homedir() string {
-	if runtime.GOOS == "windows" {
-		return os.Getenv("APPDATA")
-	}
-	return os.Getenv("HOME")
 }
 
 func equal(a, b []string) bool {
