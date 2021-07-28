@@ -391,7 +391,7 @@ func (self *Drive) dirIsEmpty(id string) (bool, error) {
 	query := fmt.Sprintf("'%s' in parents", id)
 	fileList, err := self.service.Files.List().SupportsTeamDrives(true).Q(query).Do()
 	if err != nil {
-		return false, fmt.Errorf("Empty dir check failed: ", err)
+		return false, fmt.Errorf("Empty dir check failed: %s", err)
 	}
 
 	return len(fileList.Files) == 0, nil

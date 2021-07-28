@@ -23,7 +23,7 @@ func (self *Drive) DeleteRevision(args DeleteRevisionArgs) (err error) {
 
 	err = self.service.Revisions.Delete(args.FileId, args.RevisionId).Do()
 	if err != nil {
-		return fmt.Errorf("Failed to delete revision", err)
+		return fmt.Errorf("Failed to delete revision: %s", err)
 	}
 
 	fmt.Fprintf(args.Out, "Deleted revision '%s'\n", args.RevisionId)
