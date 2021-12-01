@@ -21,7 +21,7 @@ jobs:
 
       - name: Update README.md
         env:
-          gjaw_token: ${{ secrets.GJAW_TOKEN }}
+          gjaw_token: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pip3 install githubrelease
           pip3 install click==7.1.2
