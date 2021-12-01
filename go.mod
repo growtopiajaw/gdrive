@@ -3,6 +3,7 @@ module github.com/GrowtopiaJaw/gdrive
 go 1.17
 
 require (
+	github.com/karalabe/xgo v0.0.0-20191115072854-c5ccff8648a7
 	github.com/sabhiram/go-gitignore v0.0.0-20210923224102-525f6e181f06
 	github.com/soniakeys/graph v0.0.0-20160409104831-c265d9676750
 	golang.org/x/net v0.0.0-20210503060351-7fd8e65b6420
