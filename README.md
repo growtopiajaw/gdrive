@@ -11,6 +11,7 @@ gdrive
 ## Overview
 gdrive is a command line utility for interacting with Google Drive.
 
+<<<<<<< HEAD
 ## News
 #### 28.05.2021
 gdrive is finally verified for using sensitive scopes which should fix the `This app is blocked` error. Note that the project name will show up as `project-367116221053` when granting access to you account. (I don't dare to change any more settings in the google console.)
@@ -801,3 +802,7 @@ Id                             Path                             Type   Size     
 0B3X9GlR6EmbnX1RIT2w1TWZYWFU   windows/gdrive-windows-386.exe   bin    6.1 MB   2016-02-21 22:55:15
 0B3X9GlR6EmbndmVMU05POGRPS3c   windows/gdrive-windows-x64.exe   bin    7.8 MB   2016-02-21 22:55:18
 ```
+=======
+## Important
+~~This tool is no longer maintained.~~ This fork intends to collate important fixes that are necessary to keep this thing working. This fork also does **not** include binaries, on purpose.
+>>>>>>> 59122fe (README: strip down)
