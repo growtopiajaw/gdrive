@@ -78,7 +78,7 @@ func (c callback) ServeHTTP(w http.ResponseWriter, req *http.Request) {
 	fmt.Fprintln(w, "<html><head>")
 	fmt.Fprintln(w, "<title>Authentication response received</title>")
 	fmt.Fprintln(w, "</head><body>")
-	fmt.Fprintln(w, "Authentication response has been received. Check the terminal where gdrive is running")
+	fmt.Fprintln(w, "Authentication response received. Check the terminal where gdrive is running")
 	fmt.Fprintln(w, "</body></html>")
 
 	c.done <- code

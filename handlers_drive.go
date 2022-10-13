@@ -1,8 +1,6 @@
 package main
 
 import (
-	"encoding/json"
-	"errors"
 	"io"
 	"io/ioutil"
 	"net/http"
@@ -22,6 +20,7 @@ import (
 )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const ClientId = "546861666730-tl0j9amqn5spusu0km72q82119qrq0o4.apps.googleusercontent.com"
 const ClientSecret = "zIkuFIrEr7XWEN522SsdSyCb"
 =======
@@ -33,6 +32,12 @@ var ClientSecret string
 
 >>>>>>> 77f570f (all: reformat with goimports)
 const TokenFilename = "token_v2.json"
+=======
+var clientId = "ABCDEFGH.apps.googleusercontent.com"
+var clientSecret = "IJKLMNOPQ"
+
+const TokenFilename = "USERNAME_v2.json"
+>>>>>>> 26620ff (edit Oauth)
 const OauthCredentialsFilename = "oauth_client.json"
 const DefaultCacheFileName = "file_cache.json"
 
@@ -357,33 +362,8 @@ func aboutExportHandler(ctx cli.Context) {
 	checkErr(err)
 }
 
-func getOauthAppCredentials(credsPath string) (clientId string, clientSecret string, err error) {
-	if _, err := os.Stat(credsPath); errors.Is(err, os.ErrNotExist) {
-		return ClientId, ClientSecret, nil
-	}
-	var oauthCredentials struct {
-		ClientId     string `json:"client_id"`
-		ClientSecret string `json:"client_secret"`
-	}
-	content, err := ioutil.ReadFile(credsPath)
-	if err != nil {
-		return "", "", err
-	}
-	json.Unmarshal(content, &oauthCredentials)
-	clientId = oauthCredentials.ClientId
-	clientSecret = oauthCredentials.ClientSecret
-
-	return clientId, clientSecret, nil
-}
-
 func getOauthClient(args cli.Arguments) (*http.Client, error) {
 	configDir := getConfigDir(args)
-
-	credsPath := ConfigFilePath(configDir, OauthCredentialsFilename)
-	clientId, clientSecret, err := getOauthAppCredentials(credsPath)
-	if err != nil {
-		ExitF("Failed to load oauth app credentials: %s", err)
-	}
 
 	if args.String("refreshToken") != "" && args.String("accessToken") != "" {
 		ExitF("Access token not needed when refresh token is provided")
