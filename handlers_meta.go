@@ -2,20 +2,11 @@ package main
 
 import (
 	"fmt"
-<<<<<<< HEAD
-<<<<<<< HEAD
-	"github.com/GrowtopiaJaw/gdrive/cli"
-=======
-	"github.com/msfjarvis/gdrive/cli"
->>>>>>> 47d3bb6 (Switch to Go modules)
-=======
->>>>>>> 77f570f (all: reformat with goimports)
+	"github.com/growtopiajaw/gdrive/cli"
 	"os"
 	"runtime"
 	"strings"
 	"text/tabwriter"
-
-	"github.com/msfjarvis/gdrive/cli"
 )
 
 func printVersion(ctx cli.Context) {

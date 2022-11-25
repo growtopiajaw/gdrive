@@ -4,23 +4,11 @@ import (
 	"fmt"
 	"os"
 
-<<<<<<< HEAD
-	"github.com/GrowtopiaJaw/gdrive/cli"
-=======
-	"github.com/msfjarvis/gdrive/cli"
->>>>>>> 47d3bb6 (Switch to Go modules)
+	"github.com/growtopiajaw/gdrive/cli"
 )
 
 const Name = "gdrive"
-<<<<<<< HEAD
-<<<<<<< HEAD
-const Version = "2.1.2"
-=======
-const Version = "3.0.10"
->>>>>>> 6a6e099 (gdrive: publish new stable version)
-=======
-const Version = "3.0.11"
->>>>>>> 0b01f6e (gdrive: publish new stable version)
+const Version = "2.1.3"
 
 const DefaultMaxFiles = 30
 const DefaultMaxChanges = 100

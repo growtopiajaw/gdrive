@@ -8,36 +8,15 @@ import (
 	"path/filepath"
 	"time"
 
-<<<<<<< HEAD
-	"github.com/GrowtopiaJaw/gdrive/auth"
-	"github.com/GrowtopiaJaw/gdrive/cli"
-	"github.com/GrowtopiaJaw/gdrive/drive"
-=======
-	"github.com/msfjarvis/gdrive/auth"
-	"github.com/msfjarvis/gdrive/cli"
-	"github.com/msfjarvis/gdrive/drive"
->>>>>>> 47d3bb6 (Switch to Go modules)
+	"github.com/growtopiajaw/gdrive/auth"
+	"github.com/growtopiajaw/gdrive/cli"
+	"github.com/growtopiajaw/gdrive/drive"
 )
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-const ClientId = "546861666730-tl0j9amqn5spusu0km72q82119qrq0o4.apps.googleusercontent.com"
-const ClientSecret = "zIkuFIrEr7XWEN522SsdSyCb"
-=======
-var ClientId string
-var ClientSecret string
-<<<<<<< HEAD
->>>>>>> c121158 (handlers_drive: remove invalid credentials and source at build time)
-=======
-
->>>>>>> 77f570f (all: reformat with goimports)
-const TokenFilename = "token_v2.json"
-=======
-var clientId = "ABCDEFGH.apps.googleusercontent.com"
-var clientSecret = "IJKLMNOPQ"
+var clientId = "546861666730-tl0j9amqn5spusu0km72q82119qrq0o4.apps.googleusercontent.com"
+var clientSecret = "zIkuFIrEr7XWEN522SsdSyCb"
 
 const TokenFilename = "USERNAME_v2.json"
->>>>>>> 26620ff (edit Oauth)
 const OauthCredentialsFilename = "oauth_client.json"
 const DefaultCacheFileName = "file_cache.json"
 

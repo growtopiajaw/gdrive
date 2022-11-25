@@ -2,17 +2,8 @@ package main
 
 import (
 	"encoding/json"
-<<<<<<< HEAD
-<<<<<<< HEAD
-	"github.com/GrowtopiaJaw/gdrive/drive"
-=======
-	"github.com/msfjarvis/gdrive/drive"
->>>>>>> 47d3bb6 (Switch to Go modules)
-=======
->>>>>>> 77f570f (all: reformat with goimports)
+	"github.com/growtopiajaw/gdrive/drive"
 	"os"
-
-	"github.com/msfjarvis/gdrive/drive"
 )
 
 const MinCacheFileSize = 5 * 1024 * 1024
