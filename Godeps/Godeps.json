@@ -4,7 +4,7 @@
 	"GodepVersion": "v61",
 	"Deps": [
 		{
-			"ImportPath": "github.com/sabhiram/go-git-ignore",
+			"ImportPath": "github.com/sabhiram/go-gitignore",
 			"Rev": "228fcfa2a06e870a3ef238d54c45ea847f492a37"
 		},
 		{
